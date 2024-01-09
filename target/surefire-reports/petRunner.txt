@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: petRunner
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.18 s - in petRunner
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.338 s - in petRunner

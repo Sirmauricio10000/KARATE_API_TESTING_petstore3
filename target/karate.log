@@ -4154,3 +4154,255 @@ No status provided. Try again?
 1 < Server: Jetty(9.4.9.v20180320)
 No status provided. Try again?
 
+23:37:11.274 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore3.swagger.io/api/v3/pet/findByStatus?status=available
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:37:11.822 [main] DEBUG com.intuit.karate - response time in milliseconds: 544
+1 < 200
+1 < Date: Tue, 09 Jan 2024 04:37:11 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 631
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+[{"id":7,"category":{"id":4,"name":"Lions"},"name":"Lion 1","photoUrls":["url1","url2"],"tags":[{"id":1,"name":"tag1"},{"id":2,"name":"tag2"}],"status":"available"},{"id":8,"category":{"id":4,"name":"Lions"},"name":"Lion 2","photoUrls":["url1","url2"],"tags":[{"id":1,"name":"tag2"},{"id":2,"name":"tag3"}],"status":"available"},{"id":9,"category":{"id":4,"name":"Lions"},"name":"Lion 3","photoUrls":["url1","url2"],"tags":[{"id":1,"name":"tag3"},{"id":2,"name":"tag4"}],"status":"available"},{"id":11,"category":{"id":2,"name":"Birds"},"name":"Bird","photoUrls":["string"],"tags":[{"id":1,"name":"Peacock"}],"status":"available"}]
+
+23:37:11.896 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore3.swagger.io/api/v3/pet/findByStatus?status=pending
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:37:12.135 [main] DEBUG com.intuit.karate - response time in milliseconds: 238
+1 < 200
+1 < Date: Tue, 09 Jan 2024 04:37:12 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 481
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+[{"id":6,"category":{"id":1,"name":"Dogs"},"name":"Dog 3","photoUrls":["url1","url2"],"tags":[{"id":1,"name":"tag3"},{"id":2,"name":"tag4"}],"status":"pending"},{"id":3,"category":{"id":2,"name":"Cats"},"name":"Dog 1","photoUrls":["url1","url2"],"tags":[{"id":1,"name":"tag3"},{"id":2,"name":"tag4"}],"status":"pending"},{"id":4,"category":{"id":1,"name":"Dogs"},"name":"Dog 1","photoUrls":["url1","url2"],"tags":[{"id":1,"name":"tag1"},{"id":2,"name":"tag2"}],"status":"pending"}]
+
+23:37:12.146 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore3.swagger.io/api/v3/pet/findByStatus?status=sold
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:37:12.385 [main] DEBUG com.intuit.karate - response time in milliseconds: 238
+1 < 200
+1 < Date: Tue, 09 Jan 2024 04:37:12 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 158
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+[{"id":5,"category":{"id":1,"name":"Dogs"},"name":"Dog 2","photoUrls":["url1","url2"],"tags":[{"id":1,"name":"tag2"},{"id":2,"name":"tag3"}],"status":"sold"}]
+
+23:37:12.394 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore3.swagger.io/api/v3/pet/findByStatus?status=nonValidEntry
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:37:12.657 [main] DEBUG com.intuit.karate - response time in milliseconds: 262
+1 < 400
+1 < Date: Tue, 09 Jan 2024 04:37:12 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 143
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+{"code":400,"message":"Input error: query parameter `status value `nonValidEntry` is not in the allowable values `[available, pending, sold]`"}
+
+23:37:12.672 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore3.swagger.io/api/v3/pet/findByStatus
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:37:12.911 [main] DEBUG com.intuit.karate - response time in milliseconds: 238
+1 < 400
+1 < Date: Tue, 09 Jan 2024 04:37:12 GMT
+1 < Content-Type: application/xml
+1 < Content-Length: 30
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+No status provided. Try again?
+
+23:37:12.919 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore3.swagger.io/api/v3/pet/findByStatus
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:37:13.157 [main] DEBUG com.intuit.karate - response time in milliseconds: 238
+1 < 400
+1 < Date: Tue, 09 Jan 2024 04:37:13 GMT
+1 < Content-Type: application/xml
+1 < Content-Length: 30
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+No status provided. Try again?
+
+00:12:11.276 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore3.swagger.io/api/v3/pet/findByStatus?status=available
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:12:11.959 [main] DEBUG com.intuit.karate - response time in milliseconds: 679
+1 < 200
+1 < Date: Tue, 09 Jan 2024 05:12:11 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 788
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+[{"id":7,"category":{"id":4,"name":"Lions"},"name":"Lion 1","photoUrls":["url1","url2"],"tags":[{"id":1,"name":"tag1"},{"id":2,"name":"tag2"}],"status":"available"},{"id":8,"category":{"id":4,"name":"Lions"},"name":"Lion 2","photoUrls":["url1","url2"],"tags":[{"id":1,"name":"tag2"},{"id":2,"name":"tag3"}],"status":"available"},{"id":9,"category":{"id":4,"name":"Lions"},"name":"Lion 3","photoUrls":["url1","url2"],"tags":[{"id":1,"name":"tag3"},{"id":2,"name":"tag4"}],"status":"available"},{"id":11,"category":{"id":2,"name":"Birds"},"name":"Bird","photoUrls":["string"],"tags":[{"id":1,"name":"Peacock"}],"status":"available"},{"id":1,"category":{"id":1,"name":"Pets"},"name":"Dog","photoUrls":["https://example.com/dog.jpg"],"tags":[{"id":1,"name":"Friendly"}],"status":"available"}]
+
+00:12:12.035 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore3.swagger.io/api/v3/pet/findByStatus?status=pending
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:12:12.271 [main] DEBUG com.intuit.karate - response time in milliseconds: 236
+1 < 200
+1 < Date: Tue, 09 Jan 2024 05:12:12 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 481
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+[{"id":6,"category":{"id":1,"name":"Dogs"},"name":"Dog 3","photoUrls":["url1","url2"],"tags":[{"id":1,"name":"tag3"},{"id":2,"name":"tag4"}],"status":"pending"},{"id":3,"category":{"id":2,"name":"Cats"},"name":"Dog 1","photoUrls":["url1","url2"],"tags":[{"id":1,"name":"tag3"},{"id":2,"name":"tag4"}],"status":"pending"},{"id":4,"category":{"id":1,"name":"Dogs"},"name":"Dog 1","photoUrls":["url1","url2"],"tags":[{"id":1,"name":"tag1"},{"id":2,"name":"tag2"}],"status":"pending"}]
+
+00:12:12.288 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore3.swagger.io/api/v3/pet/findByStatus?status=sold
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:12:12.544 [main] DEBUG com.intuit.karate - response time in milliseconds: 256
+1 < 200
+1 < Date: Tue, 09 Jan 2024 05:12:12 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 158
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+[{"id":5,"category":{"id":1,"name":"Dogs"},"name":"Dog 2","photoUrls":["url1","url2"],"tags":[{"id":1,"name":"tag2"},{"id":2,"name":"tag3"}],"status":"sold"}]
+
+00:12:12.557 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore3.swagger.io/api/v3/pet/findByStatus?status=nonValidEntry
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:12:12.816 [main] DEBUG com.intuit.karate - response time in milliseconds: 258
+1 < 400
+1 < Date: Tue, 09 Jan 2024 05:12:12 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 143
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+{"code":400,"message":"Input error: query parameter `status value `nonValidEntry` is not in the allowable values `[available, pending, sold]`"}
+
+00:12:12.827 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore3.swagger.io/api/v3/pet/findByStatus
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:12:13.086 [main] DEBUG com.intuit.karate - response time in milliseconds: 258
+1 < 400
+1 < Date: Tue, 09 Jan 2024 05:12:13 GMT
+1 < Content-Type: application/xml
+1 < Content-Length: 30
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+No status provided. Try again?
+
+00:12:13.094 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore3.swagger.io/api/v3/pet/findByStatus
+1 > Host: petstore3.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:12:13.327 [main] DEBUG com.intuit.karate - response time in milliseconds: 233
+1 < 400
+1 < Date: Tue, 09 Jan 2024 05:12:13 GMT
+1 < Content-Type: application/xml
+1 < Content-Length: 30
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Expose-Headers: Content-Disposition
+1 < Server: Jetty(9.4.9.v20180320)
+No status provided. Try again?
+
