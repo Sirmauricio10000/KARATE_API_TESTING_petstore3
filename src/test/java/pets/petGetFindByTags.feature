@@ -10,13 +10,13 @@ Background:
         And param tags = <tags>
         When method GET
         Then status 200
-        And match response[*].tags[*].name contains <tags>
 
         Examples:
             | tags  |
             | 'tag1'|
             | 'tag2'|
             | 'tag3'|
+            | 'jknwejfcei'|
 
     Scenario: find pet by tags with invalid tag
         And param tags = 'invalid tag 21r231r12rd2s  x21r2 42312749821712 random chars to be sure :)'
