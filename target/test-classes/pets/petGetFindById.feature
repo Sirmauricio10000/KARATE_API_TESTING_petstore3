@@ -16,8 +16,7 @@ Feature: Pet_Get_FindById
                  karate.fail("The param response it's not was expected.")
             }
         """
-
-
+            
         Examples: 
         | ID       |
         | 1        |
