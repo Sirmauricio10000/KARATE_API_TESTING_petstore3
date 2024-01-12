@@ -25,15 +25,18 @@ Background:
         }
         """
 
+        #removing rss before execute test
+        Given path id
+        When method delete
+
         #creating
         Given request body 
         When method post 
         And match response == body 
 
-        #cleaning
+        #cleaning if created success
         Given path id
         When method delete
-        Then status 200
 
         Examples:
         | ID  |

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="petTest" time="5.917" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="petTest" time="11.661" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/media/mauricio/Acer/Proyectos/Karate/test_petstore/target/surefire/surefirebooter6892180840723043397.jar /media/mauricio/Acer/Proyectos/Karate/test_petstore/target/surefire 2024-01-11T22-35-23_775-jvmRun1 surefire13147068319659731703tmp surefire_011958308589530810785tmp"/>
+    <property name="sun.java.command" value="/media/mauricio/Acer/Proyectos/Karate/test_petstore/target/surefire/surefirebooter10521044179228789226.jar /media/mauricio/Acer/Proyectos/Karate/test_petstore/target/surefire 2024-01-12T00-19-47_293-jvmRun1 surefire17775979347327889615tmp surefire_09332545906780694114tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/media/mauricio/Acer/Proyectos/Karate/test_petstore/target/test-classes:/media/mauricio/Acer/Proyectos/Karate/test_petstore/target/classes:/home/mauricio/.m2/repository/com/intuit/karate/karate-junit5/1.4.1/karate-junit5-1.4.1.jar:/home/mauricio/.m2/repository/com/intuit/karate/karate-core/1.4.1/karate-core-1.4.1.jar:/home/mauricio/.m2/repository/org/graalvm/js/js-scriptengine/22.3.3/js-scriptengine-22.3.3.jar:/home/mauricio/.m2/repository/org/graalvm/sdk/graal-sdk/22.3.3/graal-sdk-22.3.3.jar:/home/mauricio/.m2/repository/org/graalvm/js/js/22.3.3/js-22.3.3.jar:/home/mauricio/.m2/repository/org/graalvm/regex/regex/22.3.3/regex-22.3.3.jar:/home/mauricio/.m2/repository/org/graalvm/truffle/truffle-api/22.3.3/truffle-api-22.3.3.jar:/home/mauricio/.m2/repository/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar:/home/mauricio/.m2/repository/org/thymeleaf/thymeleaf/3.1.2.RELEASE/thymeleaf-3.1.2.RELEASE.jar:/home/mauricio/.m2/repository/ognl/ognl/3.3.4/ognl-3.3.4.jar:/home/mauricio/.m2/repository/org/javassist/javassist/3.29.0-GA/javassist-3.29.0-GA.jar:/home/mauricio/.m2/repository/org/attoparser/attoparser/2.0.7.RELEASE/attoparser-2.0.7.RELEASE.jar:/home/mauricio/.m2/repository/org/unbescape/unbescape/1.1.6.RELEASE/unbescape-1.1.6.RELEASE.jar:/home/mauricio/.m2/repository/com/linecorp/armeria/armeria/1.25.2/armeria-1.25.2.jar:/home/mauricio/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.2/jackson-datatype-jdk8-2.15.2.jar:/home/mauricio/.m2/repository/io/micrometer/micrometer-core/1.11.3/micrometer-core-1.11.3.jar:/home/mauricio/.m2/repository/io/micrometer/micrometer-commons/1.11.3/micrometer-commons-1.11.3.jar:/home/mauricio/.m2/repository/io/micrometer/micrometer-observation/1.11.3/micrometer-observation-1.11.3.jar:/home/mauricio/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/home/mauricio/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/home/mauricio/.m2/repository/io/netty/netty-transport/4.1.96.Final/netty-transport-4.1.96.Final.jar:/home/mauricio/.m2/repository/io/netty/netty-common/4.1.96.Final/netty-common-4.1.96.Final.jar:/home/mauricio/.m2/repository/io/netty/netty-buffer/4.1.96.Final/netty-buffer-4.1.96.Final.jar:/home/mauricio/.m2/repository/io/netty/netty-resolver/4.1.96.Final/netty-resolver-4.1.96.Final.jar:/home/mauricio/.m2/repository/io/netty/netty-codec-haproxy/4.1.96.Final/netty-codec-haproxy-4.1.96.Final.jar:/home/mauricio/.m2/repository/io/netty/netty-codec/4.1.96.Final/netty-codec-4.1.96.Final.jar:/home/mauricio/.m2/repository/io/netty/netty-codec-http2/4.1.96.Final/netty-codec-http2-4.1.96.Final.jar:/home/mauricio/.m2/repository/io/netty/netty-handler/4.1.96.Final/netty-handler-4.1.96.Final.jar:/home/mauricio/.m2/repository/io/netty/netty-codec-http/4.1.96.Final/netty-codec-http-4.1.96.Final.jar:/home/mauricio/.m2/repository/io/netty/netty-resolver-dns/4.1.96.Final/netty-resolver-dns-4.1.96.Final.jar:/home/mauricio/.m2/repository/io/netty/netty-codec-dns/4.1.96.Final/netty-codec-dns-4.1.96.Final.jar:/home/mauricio/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/home/mauricio/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/mauricio/.m2/repository/io/netty/netty-handler-proxy/4.1.96.Final/netty-handler-proxy-4.1.96.Final.jar:/home/mauricio/.m2/repository/io/netty/netty-codec-socks/4.1.96.Final/netty-codec-socks-4.1.96.Final.jar:/home/mauricio/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-linux-x86_64.jar:/home/mauricio/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final-linux-x86_64.jar:/home/mauricio/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final.jar:/home/mauricio/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.96.Final/netty-transport-classes-epoll-4.1.96.Final.jar:/home/mauricio/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-linux-aarch_64.jar:/home/mauricio/.m2/repository/io/netty/netty-transport-native-epoll/4.1.96.Final/netty-transport-native-epoll-4.1.96.Final-linux-aarch_64.jar:/home/mauricio/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-osx-x86_64.jar:/home/mauricio/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final-osx-x86_64.jar:/home/mauricio/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.96.Final/netty-transport-classes-kqueue-4.1.96.Final.jar:/home/mauricio/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.96.Final/netty-resolver-dns-native-macos-4.1.96.Final-osx-x86_64.jar:/home/mauricio/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.96.Final/netty-resolver-dns-classes-macos-4.1.96.Final.jar:/home/mauricio/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.96.Final/netty-transport-native-unix-common-4.1.96.Final-osx-aarch_64.jar:/home/mauricio/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.96.Final/netty-transport-native-kqueue-4.1.96.Final-osx-aarch_64.jar:/home/mauricio/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.96.Final/netty-resolver-dns-native-macos-4.1.96.Final-osx-aarch_64.jar:/home/mauricio/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-linux-x86_64.jar:/home/mauricio/.m2/repository/io/netty/netty-tcnative-classes/2.0.61.Final/netty-tcnative-classes-2.0.61.Final.jar:/home/mauricio/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-linux-aarch_64.jar:/home/mauricio/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-osx-x86_64.jar:/home/mauricio/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-osx-aarch_64.jar:/home/mauricio/.m2/repository/io/netty/netty-tcnative-boringssl-static/2.0.61.Final/netty-tcnative-boringssl-static-2.0.61.Final-windows-x86_64.jar:/home/mauricio/.m2/repository/com/aayushatharva/brotli4j/brotli4j/1.12.0/brotli4j-1.12.0.jar:/home/mauricio/.m2/repository/com/aayushatharva/brotli4j/service/1.12.0/service-1.12.0.jar:/home/mauricio/.m2/repository/com/aayushatharva/brotli4j/native-linux-x86_64/1.12.0/native-linux-x86_64-1.12.0.jar:/home/mauricio/.m2/repository/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar:/home/mauricio/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/home/mauricio/.m2/repository/commons-codec/commons-codec/1.16.0/commons-codec-1.16.0.jar:/home/mauricio/.m2/repository/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar:/home/mauricio/.m2/repository/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar:/home/mauricio/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.9/jcl-over-slf4j-2.0.9.jar:/home/mauricio/.m2/repository/org/antlr/antlr4-runtime/4.11.1/antlr4-runtime-4.11.1.jar:/home/mauricio/.m2/repository/com/jayway/jsonpath/json-path/2.8.0/json-path-2.8.0.jar:/home/mauricio/.m2/repository/net/minidev/json-smart/2.4.10/json-smart-2.4.10.jar:/home/mauricio/.m2/repository/net/minidev/accessors-smart/2.4.9/accessors-smart-2.4.9.jar:/home/mauricio/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/mauricio/.m2/repository/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar:/home/mauricio/.m2/repository/de/siegmar/fastcsv/2.2.1/fastcsv-2.2.1.jar:/home/mauricio/.m2/repository/info/picocli/picocli/4.7.1/picocli-4.7.1.jar:/home/mauricio/.m2/repository/io/github/classgraph/classgraph/4.8.160/classgraph-4.8.160.jar:/home/mauricio/.m2/repository/io/github/t12y/resemble/1.0.2/resemble-1.0.2.jar:/home/mauricio/.m2/repository/io/github/t12y/ssim/1.0.0/ssim-1.0.0.jar:/home/mauricio/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/home/mauricio/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/mauricio/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/home/mauricio/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/mauricio/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/home/mauricio/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/home/mauricio/.m2/repository/net/masterthought/cucumber-reporting/5.3.1/cucumber-reporting-5.3.1.jar:/home/mauricio/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar:/home/mauricio/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar:/home/mauricio/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar:/home/mauricio/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar:/home/mauricio/.m2/repository/org/apache/velocity/velocity-engine-core/2.1/velocity-engine-core-2.1.jar:/home/mauricio/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/home/mauricio/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/mauricio/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/home/mauricio/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/home/mauricio/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/mauricio/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/home/mauricio/.m2/repository/org/jsoup/jsoup/1.12.1/jsoup-1.12.1.jar:/home/mauricio/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20191001.1/owasp-java-html-sanitizer-20191001.1.jar:/home/mauricio/.m2/repository/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar:/home/mauricio/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/mauricio/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/mauricio/.m2/repository/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar:/home/mauricio/.m2/repository/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar:/home/mauricio/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/mauricio/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar:/home/mauricio/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/home/mauricio/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/mauricio/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/media/mauricio/Acer/Proyectos/Karate/test_petstore/target/surefire/surefirebooter6892180840723043397.jar"/>
+    <property name="surefire.real.class.path" value="/media/mauricio/Acer/Proyectos/Karate/test_petstore/target/surefire/surefirebooter10521044179228789226.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.21+9-post-Ubuntu-0ubuntu122.04"/>
     <property name="user.name" value="mauricio"/>
@@ -58,49 +58,65 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="PetTestParallel" classname="petTest" time="5.908">
-    <failure message="status code was: 400, expected: 404, response time in milliseconds: 261, url: https://petstore3.swagger.io/api/v3/pet/1.2341231253446346E41, response: &#10;{&quot;code&quot;:400,&quot;message&quot;:&quot;Input error: couldn&apos;t convert `1.2341231253446346E41` to type `class java.lang.Long`&quot;}&#10;classpath:pets/petGetFindById.feature:52&#10;status code was: 200, expected: 409, response time in milliseconds: 259, url: https://petstore3.swagger.io/api/v3/pet/, response: &#10;{&quot;id&quot;:93181424,&quot;category&quot;:{&quot;id&quot;:2,&quot;name&quot;:&quot;Chaucito&quot;},&quot;name&quot;:&quot;Gatitotototo&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Bizcocho&quot;}],&quot;status&quot;:&quot;sold&quot;}&#10;classpath:pets/petPost.feature:79 ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-status code was: 400, expected: 404, response time in milliseconds: 261, url: https://petstore3.swagger.io/api/v3/pet/1.2341231253446346E41, response: 
+  <testcase name="PetTestParallel" classname="petTest" time="11.654">
+    <failure message="status code was: 200, expected: 404, response time in milliseconds: 613, url: https://petstore3.swagger.io/api/v3/pet/93181424, response: &#10;Pet deleted&#10;classpath:pets/petDelete.feature:86&#10;status code was: 400, expected: 404, response time in milliseconds: 595, url: https://petstore3.swagger.io/api/v3/pet/1.2341231253446346E41, response: &#10;{&quot;code&quot;:400,&quot;message&quot;:&quot;Input error: couldn&apos;t convert `1.2341231253446346E41` to type `class java.lang.Long`&quot;}&#10;classpath:pets/petGetFindById.feature:52&#10;status code was: 200, expected: 409, response time in milliseconds: 303, url: https://petstore3.swagger.io/api/v3/pet/, response: &#10;{&quot;id&quot;:93181424,&quot;category&quot;:{&quot;id&quot;:2,&quot;name&quot;:&quot;Chaucito&quot;},&quot;name&quot;:&quot;Gatitotototo&quot;,&quot;photoUrls&quot;:[],&quot;tags&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Bizcocho&quot;}],&quot;status&quot;:&quot;sold&quot;}&#10;classpath:pets/petPost.feature:82 ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+status code was: 200, expected: 404, response time in milliseconds: 613, url: https://petstore3.swagger.io/api/v3/pet/93181424, response: 
+Pet deleted
+classpath:pets/petDelete.feature:86
+status code was: 400, expected: 404, response time in milliseconds: 595, url: https://petstore3.swagger.io/api/v3/pet/1.2341231253446346E41, response: 
 {"code":400,"message":"Input error: couldn't convert `1.2341231253446346E41` to type `class java.lang.Long`"}
 classpath:pets/petGetFindById.feature:52
-status code was: 200, expected: 409, response time in milliseconds: 259, url: https://petstore3.swagger.io/api/v3/pet/, response: 
+status code was: 200, expected: 409, response time in milliseconds: 303, url: https://petstore3.swagger.io/api/v3/pet/, response: 
 {"id":93181424,"category":{"id":2,"name":"Chaucito"},"name":"Gatitotototo","photoUrls":[],"tags":[{"id":1,"name":"Bizcocho"}],"status":"sold"}
-classpath:pets/petPost.feature:79 ==> expected: <true> but was: <false>
+classpath:pets/petPost.feature:82 ==> expected: <true> but was: <false>
 	at petTest.PetTestParallel(petTest.java:23)
 ]]></failure>
     <system-out><![CDATA[---------------------------------------------------------
+feature: classpath:pets/petDelete.feature
+scenarios:  5 | passed:  4 | failed:  1 | time: 14,5083
+---------------------------------------------------------
+
+---------------------------------------------------------
 feature: classpath:pets/petGetFindById.feature
-scenarios: 11 | passed: 10 | failed:  1 | time: 6,0217
+scenarios: 11 | passed: 10 | failed:  1 | time: 8,7632
 ---------------------------------------------------------
 
 ---------------------------------------------------------
 feature: classpath:pets/petGetFindByStatus.feature
-scenarios:  6 | passed:  6 | failed:  0 | time: 1,5591
+scenarios:  6 | passed:  6 | failed:  0 | time: 4,5476
 ---------------------------------------------------------
 
 ---------------------------------------------------------
 feature: classpath:pets/petGetFindByTags.feature
-scenarios:  9 | passed:  9 | failed:  0 | time: 3,2670
+scenarios:  9 | passed:  9 | failed:  0 | time: 4,9311
 ---------------------------------------------------------
 
 ---------------------------------------------------------
 feature: classpath:pets/petPost.feature
-scenarios:  5 | passed:  4 | failed:  1 | time: 3,1165
+scenarios:  5 | passed:  4 | failed:  1 | time: 5,3913
+---------------------------------------------------------
+
+---------------------------------------------------------
+feature: classpath:pets/petUpdate.feature
+scenarios:  4 | passed:  4 | failed:  0 | time: 5,0646
 ---------------------------------------------------------
 
 Karate version: 1.4.1 | env: pet
 ======================================================
-elapsed:   4,93 | threads:    5 | thread time: 13,97 
-features:     4 | skipped:    0 | efficiency: 0,57
-scenarios:   31 | passed:    29 | failed: 2
+elapsed:  10,51 | threads:    5 | thread time: 43,21 
+features:     6 | skipped:    0 | efficiency: 0,82
+scenarios:   40 | passed:    37 | failed: 3
 ======================================================
 >>> failed features:
-status code was: 400, expected: 404, response time in milliseconds: 261, url: https://petstore3.swagger.io/api/v3/pet/1.2341231253446346E41, response: 
+status code was: 200, expected: 404, response time in milliseconds: 613, url: https://petstore3.swagger.io/api/v3/pet/93181424, response: 
+Pet deleted
+classpath:pets/petDelete.feature:86
+status code was: 400, expected: 404, response time in milliseconds: 595, url: https://petstore3.swagger.io/api/v3/pet/1.2341231253446346E41, response: 
 {"code":400,"message":"Input error: couldn't convert `1.2341231253446346E41` to type `class java.lang.Long`"}
 classpath:pets/petGetFindById.feature:52
-status code was: 200, expected: 409, response time in milliseconds: 259, url: https://petstore3.swagger.io/api/v3/pet/, response: 
+status code was: 200, expected: 409, response time in milliseconds: 303, url: https://petstore3.swagger.io/api/v3/pet/, response: 
 {"id":93181424,"category":{"id":2,"name":"Chaucito"},"name":"Gatitotototo","photoUrls":[],"tags":[{"id":1,"name":"Bizcocho"}],"status":"sold"}
-classpath:pets/petPost.feature:79
+classpath:pets/petPost.feature:82
 <<<
 
 HTML report: (paste into browser to view) | Karate version: 1.4.1 | env: pet
@@ -111,14 +127,18 @@ file:///media/mauricio/Acer/Proyectos/Karate/test_petstore/target/karate-reports
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Jan 11, 2024 10:35:29 PM net.masterthought.cucumber.ReportParser parseJsonFiles
+Jan 12, 2024 12:19:58 AM net.masterthought.cucumber.ReportParser parseJsonFiles
+INFO: File '/media/mauricio/Acer/Proyectos/Karate/test_petstore/target/karate-reports/pets.petDelete.json' contains 1 features
+Jan 12, 2024 12:19:58 AM net.masterthought.cucumber.ReportParser parseJsonFiles
 INFO: File '/media/mauricio/Acer/Proyectos/Karate/test_petstore/target/karate-reports/pets.petGetFindById.json' contains 1 features
-Jan 11, 2024 10:35:29 PM net.masterthought.cucumber.ReportParser parseJsonFiles
+Jan 12, 2024 12:19:58 AM net.masterthought.cucumber.ReportParser parseJsonFiles
 INFO: File '/media/mauricio/Acer/Proyectos/Karate/test_petstore/target/karate-reports/pets.petGetFindByStatus.json' contains 1 features
-Jan 11, 2024 10:35:29 PM net.masterthought.cucumber.ReportParser parseJsonFiles
+Jan 12, 2024 12:19:58 AM net.masterthought.cucumber.ReportParser parseJsonFiles
 INFO: File '/media/mauricio/Acer/Proyectos/Karate/test_petstore/target/karate-reports/pets.petGetFindByTags.json' contains 1 features
-Jan 11, 2024 10:35:29 PM net.masterthought.cucumber.ReportParser parseJsonFiles
+Jan 12, 2024 12:19:58 AM net.masterthought.cucumber.ReportParser parseJsonFiles
 INFO: File '/media/mauricio/Acer/Proyectos/Karate/test_petstore/target/karate-reports/pets.petPost.json' contains 1 features
+Jan 12, 2024 12:19:58 AM net.masterthought.cucumber.ReportParser parseJsonFiles
+INFO: File '/media/mauricio/Acer/Proyectos/Karate/test_petstore/target/karate-reports/pets.petUpdate.json' contains 1 features
 ]]></system-err>
   </testcase>
 </testsuite>

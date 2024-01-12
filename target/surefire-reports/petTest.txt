@@ -1,14 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: petTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.917 s <<< FAILURE! - in petTest
-PetTestParallel  Time elapsed: 5.908 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.661 s <<< FAILURE! - in petTest
+PetTestParallel  Time elapsed: 11.654 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
-status code was: 400, expected: 404, response time in milliseconds: 261, url: https://petstore3.swagger.io/api/v3/pet/1.2341231253446346E41, response: 
+status code was: 200, expected: 404, response time in milliseconds: 613, url: https://petstore3.swagger.io/api/v3/pet/93181424, response: 
+Pet deleted
+classpath:pets/petDelete.feature:86
+status code was: 400, expected: 404, response time in milliseconds: 595, url: https://petstore3.swagger.io/api/v3/pet/1.2341231253446346E41, response: 
 {"code":400,"message":"Input error: couldn't convert `1.2341231253446346E41` to type `class java.lang.Long`"}
 classpath:pets/petGetFindById.feature:52
-status code was: 200, expected: 409, response time in milliseconds: 259, url: https://petstore3.swagger.io/api/v3/pet/, response: 
+status code was: 200, expected: 409, response time in milliseconds: 303, url: https://petstore3.swagger.io/api/v3/pet/, response: 
 {"id":93181424,"category":{"id":2,"name":"Chaucito"},"name":"Gatitotototo","photoUrls":[],"tags":[{"id":1,"name":"Bizcocho"}],"status":"sold"}
-classpath:pets/petPost.feature:79 ==> expected: <true> but was: <false>
+classpath:pets/petPost.feature:82 ==> expected: <true> but was: <false>
 	at petTest.PetTestParallel(petTest.java:23)
 
