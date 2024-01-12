@@ -18,8 +18,8 @@ Background:
             | 'tag3'|
             | 'jknwejfcei'|
 
-    Scenario: find pet by tags with invalid tag
-        And param tags = 'invalid tag 21r231r12rd2s  x21r2 42312749821712 random chars to be sure :)'
+    Scenario: find pet by tags with no present tag
+        And param tags = 'tag 21r231r12rd2s  x21r2 42312749821712 random chars to be sure :)'
         When method GET
         Then status 200
         And match response == []
